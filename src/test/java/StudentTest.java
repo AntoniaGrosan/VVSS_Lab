@@ -21,13 +21,13 @@ public class StudentTest {
     }
 
     @Test
-    public void addStudentTest1(){
+    public void addStudent1(){
         service.add(s1);
         Assert.assertEquals("Ana", service.find("22").getNume());
     }
 
     @Test
-    public  void addStudentTest2() {
+    public  void addStudent2() {
         int length = repo.size();
         service.add(s2);
         Assert.assertEquals(length, repo.size());
