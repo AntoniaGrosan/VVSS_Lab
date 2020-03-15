@@ -6,7 +6,7 @@
 
     <groupId>StudentMV</groupId>
     <artifactId>Student</artifactId>
-    <version>2.2.1.0-SNAPSHOT</version>
+    <version>m-SNAPSHOT</version>
     <build>
         <plugins>
             <plugin>
@@ -16,7 +16,7 @@
                     <source>8</source>
                     <target>8</target>
                 </configuration>
-				<version>3.8.1</version>
+                <version>3.8.1</version>
             </plugin>
         </plugins>
     </build>
