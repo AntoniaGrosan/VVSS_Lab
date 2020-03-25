@@ -24,12 +24,8 @@ public class StudentTest {
     public void setUp(){
         s1 = new Student("22","Ana",933,"ana@ana.com","Ioan");
         s2 = new Student("25", "Mihai007", 932, "mihai@mahai.com","Mirabela");
-        a1 = new Teme(15,"First Assignment",6,3);
-        a2 = new Teme(16,"Second Assignment",0,5);
         repoStudent = new StudentRepo(new StudentValidator(),"C:\\Facultate\\An III\\SSVV\\src\\main\\resources\\studenti.xml");
-        repoTeme = new TemeRepo(new TemeValidator(),"C:\\Facultate\\An III\\SSVV\\src\\main\\resources\\teme.xml");
         studentService = new ServiceStudent(repoStudent);
-        temeService = new ServiceTeme(repoTeme);
     }
 
     @Test
@@ -47,23 +43,5 @@ public class StudentTest {
             Assert.assertEquals("\nNume invalid", e.getMessage());
         }
 
-    }
-
-    @Test
-    public void addAssignment1(){
-        try {
-            temeService.add(a1);
-        } catch (ValidationException e) {
-            Assert.assertEquals("\nDeadline invalid", e.getMessage());
-        }
-    }
-
-    @Test
-    public void addAssignment2() {
-        try {
-            temeService.add(a2);
-        } catch (ValidationException e) {
-            Assert.assertEquals("\nSaptamana in care tema a fost primita este invalida", e.getMessage());
-        }
     }
 }
