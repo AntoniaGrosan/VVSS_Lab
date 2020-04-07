@@ -1,6 +1,5 @@
 Repository\NoteRepo.class
 UI\UI.class
-Domain\Teme.class
 Repository\CrudRepo.class
 Service\ServiceTeme.class
 Service\ServiceNote.class
@@ -9,6 +8,7 @@ Validator\TemeValidator.class
 Validator\StudentValidator.class
 Validator\NotaValidator.class
 Service\ServiceStudent.class
+Domain\Tema.class
 Repository\AbstractRepo.class
 Repository\StudentRepo.class
 Domain\hasID.class

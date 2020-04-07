@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="StudentTest" time="0.321" tests="6" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TemaTest" time="0.071" tests="6" errors="0" skipped="0" failures="0">
   <properties>
     <property name="idea.version" value="2018.2.5"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -61,10 +61,10 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="addStudent1" classname="StudentTest" time="0.12"/>
-  <testcase name="addStudent2" classname="StudentTest" time="0.018"/>
-  <testcase name="addStudent3" classname="StudentTest" time="0"/>
-  <testcase name="addStudent4" classname="StudentTest" time="0.011"/>
-  <testcase name="addStudent5" classname="StudentTest" time="0.009"/>
-  <testcase name="addStudent6" classname="StudentTest" time="0.015"/>
+  <testcase name="addAssignment1" classname="TemaTest" time="0"/>
+  <testcase name="addAssignment2" classname="TemaTest" time="0"/>
+  <testcase name="addAssignment3" classname="TemaTest" time="0.008"/>
+  <testcase name="addAssignment4" classname="TemaTest" time="0.023"/>
+  <testcase name="addAssignment5" classname="TemaTest" time="0.012"/>
+  <testcase name="addAssignment6" classname="TemaTest" time="0.023"/>
 </testsuite>
