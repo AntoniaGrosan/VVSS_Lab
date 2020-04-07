@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0bf7bf28-bb0d-49d4-93c3-c584a8d2f9cd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TemaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TemaTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -91,23 +92,25 @@
     <session id="-1947925238">
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="1" />
+          <entry key="java" value="2" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="1" />
+          <entry key="JAVA" value="2" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="java" value="3" />
           <entry key="xml" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="JAVA" value="3" />
           <entry key="XML" value="20" />
         </counts>
       </usages-collector>
@@ -125,7 +128,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/StudentTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
+            <state relative-caret-position="697">
               <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -176,8 +179,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/TemaTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+            <state relative-caret-position="119">
+              <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Repository/NoteRepo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="113" column="12" selection-start-line="113" selection-start-column="12" selection-end-line="113" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -198,7 +213,7 @@
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2489">
-              <caret line="879" column="38" selection-start-line="879" selection-start-column="38" selection-end-line="879" selection-end-column="38" />
+              <caret line="878" column="38" selection-start-line="878" selection-start-column="38" selection-end-line="878" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -248,9 +263,9 @@
         <option value="$PROJECT_DIR$/src/test/java/TemeTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Validator/TemeValidator.java" />
         <option value="$PROJECT_DIR$/src/main/java/MaveProject/App.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TemaTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/StudentTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/TemaTest.java" />
       </list>
     </option>
   </component>
@@ -371,7 +386,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586291211368" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586291579039" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -489,20 +504,11 @@
       <workItem from="1584289822142" duration="10169000" />
       <workItem from="1585121287395" duration="656000" />
       <workItem from="1586281466335" duration="3930000" />
-      <workItem from="1586289701731" duration="1432000" />
+      <workItem from="1586289701731" duration="1793000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TemeTest - 2020.04.07 at 21h 19m 15s.xml">
-      <configuration name="TemeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TemeTest - 2020.04.07 at 21h 20m 17s.xml">
-      <configuration name="TemeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TemaTest - 2020.04.07 at 21h 42m 12s.xml">
-      <configuration name="TemaTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TemaTest - 2020.04.07 at 21h 46m 06s.xml">
       <configuration name="TemaTest" configurationId="JUnit" />
     </history-entry>
@@ -524,22 +530,30 @@
     <history-entry file="Student - 2020.04.07 at 23h 15m 07s.xml">
       <configuration name="Student" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="StudentTest - 2020.04.07 at 23h 26m 29s.xml">
+      <configuration name="StudentTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TemaTest - 2020.04.07 at 23h 26m 37s.xml">
+      <configuration name="TemaTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TemaTest - 2020.04.07 at 23h 27m 35s.xml">
+      <configuration name="TemaTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21417000" />
+    <option name="totallyTimeSpent" value="21778000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49822065" visible="true" weight="0.2834008" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49822065" visible="true" weight="0.2834008" />
       <window_info id="Structure" order="1" sideWeight="0.5017794" side_tool="true" weight="0.24939272" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Maven test results" visible="true" weight="0.0569395" />
+      <window_info anchor="bottom" id="Maven test results" weight="0.0569395" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.39679715" />
@@ -549,10 +563,10 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" weight="0.14412811" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.19039147" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.4644128" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Sequence" order="11" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.19716312" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.33985764" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -690,16 +704,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/NoteRepo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1564">
-          <caret line="113" column="13" selection-start-line="113" selection-start-column="13" selection-end-line="113" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Repository/AbstractRepo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -789,7 +793,27 @@
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2489">
-          <caret line="879" column="38" selection-start-line="879" selection-start-column="38" selection-end-line="879" selection-end-column="38" />
+          <caret line="878" column="38" selection-start-line="878" selection-start-column="38" selection-end-line="878" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/NoteRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="113" column="12" selection-start-line="113" selection-start-column="12" selection-end-line="113" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/StudentTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -800,20 +824,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/StudentTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TemaTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+        <state relative-caret-position="119">
+          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
