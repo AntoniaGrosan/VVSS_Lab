@@ -61,10 +61,10 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="addStudent1" classname="StudentTest" time="0.123"/>
-  <testcase name="addStudent2" classname="StudentTest" time="0.004"/>
-  <testcase name="addStudent3" classname="StudentTest" time="0.005"/>
-  <testcase name="addStudent4" classname="StudentTest" time="0.005"/>
-  <testcase name="addStudent5" classname="StudentTest" time="0.004"/>
-  <testcase name="addStudent6" classname="StudentTest" time="0.008"/>
+  <testcase name="addStudent1" classname="StudentTest" time="0.093"/>
+  <testcase name="addStudent2" classname="StudentTest" time="0.006"/>
+  <testcase name="addStudent3" classname="StudentTest" time="0.004"/>
+  <testcase name="addStudent4" classname="StudentTest" time="0.003"/>
+  <testcase name="addStudent5" classname="StudentTest" time="0.006"/>
+  <testcase name="addStudent6" classname="StudentTest" time="0.005"/>
 </testsuite>
