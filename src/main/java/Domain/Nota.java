@@ -4,10 +4,10 @@ import java.util.Map;
 public class Nota implements hasID<Map.Entry<String,Integer>>{
     private Map.Entry<String,Integer> id;
     private Student st;
-    private Teme tm;
+    private Tema tm;
     private float valoare;
     private int data;
-    public Nota(Map.Entry<String,Integer> id,Student s,Teme t, float val, int d){
+    public Nota(Map.Entry<String,Integer> id, Student s, Tema t, float val, int d){
         this.id=id;
         this.st=s;
         this.tm=t;

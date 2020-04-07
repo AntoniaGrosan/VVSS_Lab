@@ -2,7 +2,7 @@ package UI;
 
 import Domain.Nota;
 import Domain.Student;
-import Domain.Teme;
+import Domain.Tema;
 import Service.ServiceNote;
 import Service.ServiceStudent;
 import Service.ServiceTeme;
@@ -42,7 +42,7 @@ public class UI {
                 for(Student st:srv.all())
                     System.out.println(st);
             if(s.equals("2"))
-                for(Teme t:serv.all())
+                for(Tema t:serv.all())
                     System.out.println(t);
             if(s.equals("3")){
                 try {
@@ -80,7 +80,7 @@ public class UI {
                     String dl = br.readLine();
                     int d = Integer.parseInt(dl);
                     //if(serv.find(nr)==null) {
-                    Teme tema = new Teme(nr, desc, sapt, d);
+                    Tema tema = new Tema(nr, desc, sapt, d);
                     serv.add(tema);
                     //}
                     //else System.out.println("ID deja existent");
@@ -135,7 +135,7 @@ public class UI {
                     String fd=br.readLine();
                     if (srv.find(id) != null && serv.find(nr) != null) {
                         Student st = srv.find(id);
-                        Teme tm = serv.find(nr);
+                        Tema tm = serv.find(nr);
                         Map.Entry<String, Integer> nid = new AbstractMap.SimpleEntry<String, Integer>(id,nr);
                         Nota nt = new Nota(nid, st, tm, nota, data);
                         nota = nt.getValoare();

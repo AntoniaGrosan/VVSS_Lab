@@ -20,8 +20,8 @@ import java.io.IOException;
 public class App 
 {
     public static void main( String[] args ) throws IOException {
-        StudentRepo rep=new StudentRepo(new StudentValidator(),"C:\\Facultate\\An III\\SSVV\\src\\main\\resources\\studenti.xml");
-        TemeRepo repo=new TemeRepo(new TemeValidator(),"C:\\Facultate\\An III\\SSVV\\src\\main\\resources\\teme.xml");
+        StudentRepo rep=new StudentRepo(new StudentValidator(), "src\\main\\resources\\studenti.xml");
+        TemeRepo repo=new TemeRepo(new TemeValidator(), "src\\main\\resources\\teme.xml");
         NoteRepo r=new NoteRepo(new NotaValidator());
         ServiceStudent srv=new ServiceStudent(rep);
         ServiceTeme serv=new ServiceTeme(repo);

@@ -1,7 +1,6 @@
 package Repository;
 
-import Domain.Teme;
-import Domain.Teme;
+import Domain.Tema;
 import Validator.Validator;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
@@ -19,10 +18,10 @@ import java.io.*;
 
 import static javax.xml.xpath.XPathFactory.newInstance;
 
-public class TemeRepo extends AbstractRepo<Teme,Integer> {
+public class TemeRepo extends AbstractRepo<Tema,Integer> {
     private String fName;
     private DocumentBuilderFactory builderFactory;
-    public TemeRepo(Validator<Teme> val, String n){
+    public TemeRepo(Validator<Tema> val, String n){
         super(val);
         this.fName=n;
         builderFactory=DocumentBuilderFactory.newInstance();
@@ -46,7 +45,7 @@ public class TemeRepo extends AbstractRepo<Teme,Integer> {
                 NodeList l3=a.getElementsByTagName("sapt_primire");
                 String mail=l3.item(0).getTextContent();
                 int sp=Integer.parseInt(mail);
-                Teme t=new Teme(nr,nume,sp,dd);
+                Tema t=new Tema(nr,nume,sp,dd);
                 super.save(t);
             }
         }
@@ -56,8 +55,8 @@ public class TemeRepo extends AbstractRepo<Teme,Integer> {
         try{
             DocumentBuilder db=builderFactory.newDocumentBuilder();
             Document doc=db.newDocument();
-            Element r = doc.createElement("Teme");
-            for(Teme s:findAll()) {
+            Element r = doc.createElement("Tema");
+            for(Tema s:findAll()) {
                 Element e = doc.createElement("Tema");
                 e.setAttribute("nr",s.getID().toString());
                 Element numee=doc.createElement("descriere");
@@ -71,7 +70,7 @@ public class TemeRepo extends AbstractRepo<Teme,Integer> {
                 grupa.appendChild(gr);
                 e.appendChild(grupa);
                 Element mail=doc.createElement("sapt_primire");
-                Text email=doc.createTextNode(s.getSapt_primire().toString());
+                Text email=doc.createTextNode(s.getSaptPrimire().toString());
                 mail.appendChild(email);
                 e.appendChild(mail);
                 r.appendChild(e);
@@ -88,20 +87,20 @@ public class TemeRepo extends AbstractRepo<Teme,Integer> {
         catch (Exception e){e.printStackTrace();}
     }
     @Override
-    public Teme save(Teme el) {
-        Teme t= super.save(el);
+    public Tema save(Tema el) {
+        Tema t= super.save(el);
         writeToFile();
         return t;
     }
     @Override
-    public Teme delete(Integer id){
-        Teme t=super.delete(id);
+    public Tema delete(Integer id){
+        Tema t=super.delete(id);
         writeToFile();
         return t;
     }
     @Override
-    public Teme update(Teme tt){
-        Teme t=super.update(tt);
+    public Tema update(Tema tt){
+        Tema t=super.update(tt);
         writeToFile();
         return t;
     }

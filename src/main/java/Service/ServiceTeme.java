@@ -1,6 +1,6 @@
 package Service;
 
-import Domain.Teme;
+import Domain.Tema;
 import Repository.TemeRepo;
 
 public class ServiceTeme {
@@ -12,7 +12,7 @@ public class ServiceTeme {
      * @param s
      * @return tema adaugata
      */
-    public Teme add(Teme s){
+    public Tema add(Tema s){
         return rep.save(s);
     }
 
@@ -21,7 +21,7 @@ public class ServiceTeme {
      * @param id
      * @return tema stearsa
      */
-    public Teme del(Integer id){
+    public Tema del(Integer id){
         return rep.delete(id);
     }
 
@@ -30,7 +30,7 @@ public class ServiceTeme {
      * @param s
      * @return tema modificata
      */
-    public Teme mod(Teme s){
+    public Tema mod(Tema s){
         return rep.update(s);
     }
 
@@ -39,14 +39,14 @@ public class ServiceTeme {
      * @param id
      * @return tema gasita
      */
-    public Teme find(Integer id){
+    public Tema find(Integer id){
         return rep.findOne(id);
     }
 
     /***
      * @return temele
      */
-    public Iterable<Teme> all(){
+    public Iterable<Tema> all(){
         return rep.findAll();
     }
 }
