@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="SSVV" />
         <module name="Student" />
+        <module name="VVSS_Lab" />
       </profile>
     </annotationProcessing>
   </component>
