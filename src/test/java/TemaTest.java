@@ -1,8 +1,5 @@
 import Domain.Tema;
-import Repository.StudentRepo;
-
 import Repository.TemeRepo;
-import Service.ServiceStudent;
 import Service.ServiceTeme;
 import Validator.TemeValidator;
 import Validator.ValidationException;
@@ -11,9 +8,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 public class TemaTest {
-    private StudentRepo repoStudent;
     private TemeRepo repoTeme;
-    private ServiceStudent studentService;
     private ServiceTeme temeService;
 
     @Before
