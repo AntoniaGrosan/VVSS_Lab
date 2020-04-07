@@ -13,7 +13,7 @@ public class TemaTest {
 
     @Before
     public void setUp(){
-        repoTeme = new TemeRepo(new TemeValidator(),"src\\main\\resources\\teme.xml");
+        repoTeme = new TemeRepo(new TemeValidator(),"src/main/resources/teme.xml");
         temeService = new ServiceTeme(repoTeme);
     }
 
