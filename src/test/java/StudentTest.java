@@ -12,6 +12,7 @@ public class StudentTest {
     private Student s1, s2, s3, s4, s5, s6;
     private ServiceStudent studentService;
 
+
     @Before
     public void setUp() {
         s1 = new Student("22", "Ana", 933, "ana@ana.com", "Ioan");

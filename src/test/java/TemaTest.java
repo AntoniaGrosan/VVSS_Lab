@@ -17,25 +17,25 @@ public class TemaTest {
         temeService = new ServiceTeme(repoTeme);
     }
 
-//    @Test
-//    public void addAssignment1(){
-//        Tema a1 = new Tema(15,"First Assignment",6,18);
-//        try {
-//            temeService.add(a1);
-//        } catch (ValidationException e) {
-//            Assert.assertEquals("\nDeadline invalid", e.getMessage());
-//        }
-//    }
-//
-//    @Test
-//    public void addAssignment2() {
-//        Tema a2 = new Tema(16,"Second Assignment",0,5);
-//        try {
-//            temeService.add(a2);
-//        } catch (ValidationException e) {
-//            Assert.assertEquals("\nWeek in which assignment was given is invalid", e.getMessage());
-//        }
-//    }
+    @Test
+    public void addAssignment1(){
+        Tema a1 = new Tema(15,"First Assignment",6,18);
+        try {
+            temeService.add(a1);
+        } catch (ValidationException e) {
+            Assert.assertEquals("\nDeadline invalid", e.getMessage());
+        }
+    }
+
+    @Test
+    public void addAssignment2() {
+        Tema a2 = new Tema(16,"Second Assignment",0,5);
+        try {
+            temeService.add(a2);
+        } catch (ValidationException e) {
+            Assert.assertEquals("\nWeek in which assignment was given is invalid", e.getMessage());
+        }
+    }
 
     @Test
     public void addAssignment3(){
