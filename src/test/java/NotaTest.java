@@ -23,7 +23,7 @@ public class NotaTest {
     public void setUp() {
         Student s = new Student("22", "Ana", 933, "ana@ana.com", "Ioan");
         Tema a = new Tema(15,"First Assignment",2,5);
-        Map.Entry<String, Integer> nid = new AbstractMap.SimpleEntry<String, Integer>("1",1);
+        Map.Entry<String, Integer> nid = new AbstractMap.SimpleEntry<String, Integer>("2",2);
         g = new Nota(nid,s,a,10,1);
         NoteRepo repoNote = new NoteRepo(new NotaValidator());
         serviceNote = new ServiceNote(repoNote);
@@ -32,7 +32,7 @@ public class NotaTest {
     @Test
     public void addGrade1() {
         Nota n1 = serviceNote.add(g,"Catalog.xml");
-        Assert.assertEquals(n1.getStudent().getID(), "22");
+        Assert.assertEquals(n1,null);
     }
 
 }

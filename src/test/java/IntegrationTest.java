@@ -59,10 +59,11 @@ public class IntegrationTest {
     @Test
     public void addGrade() {
         Nota n1 = serviceNote.add(g,"Catalog.xml");
-        Assert.assertEquals(n1.getStudent().getID(), "22");
+        Assert.assertEquals(n1,null);
     }
 
-    @Test void addAll() {
+    @Test
+    public void addAll() {
         addStudent();
         addAssignment();
         addGrade();

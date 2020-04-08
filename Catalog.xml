@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Note>
-    <Nota idNota="11">
-        <nume>Roman Ionut</nume>
-        <nr>1</nr>
-        <valoare>10.0</valoare>
-    </Nota>
-</Note>
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Note>
-    <Nota idNota="11">
+    <Nota idNota="22">
         <nume>Ana</nume>
         <nr>15</nr>
         <valoare>10.0</valoare>
@@ -16,7 +8,15 @@
 </Note>
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Note>
-    <Nota idNota="11">
+    <Nota idNota="22">
+        <nume>Ana</nume>
+        <nr>15</nr>
+        <valoare>10.0</valoare>
+    </Nota>
+</Note>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Note>
+    <Nota idNota="22">
         <nume>Ana</nume>
         <nr>15</nr>
         <valoare>10.0</valoare>
