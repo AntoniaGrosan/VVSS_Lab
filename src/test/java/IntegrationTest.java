@@ -58,8 +58,11 @@ public class IntegrationTest {
 
     @Test
     public void addGrade() {
-        Nota n1 = serviceNote.add(g,"Catalog.xml");
-        Assert.assertEquals(n1,null);
+        try {
+            Nota n1 = serviceNote.add(g,"Catalog.xml");
+        } catch (ValidationException e) {
+            Assert.assertEquals("Deadline gresit.\n", e.getMessage());
+        }
     }
 
     @Test

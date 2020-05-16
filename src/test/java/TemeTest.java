@@ -7,7 +7,7 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-public class TemaTest {
+public class TemeTest {
     private TemeRepo repoTeme;
     private ServiceTeme temeService;
 
