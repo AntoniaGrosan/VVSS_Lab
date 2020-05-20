@@ -32,7 +32,7 @@ public class NotaTest {
     @Test
     public void addGrade1() {
         Nota n1 = serviceNote.add(g,"Catalog.xml");
-        Assert.assertEquals(n1,null);
+        Assert.assertEquals(n1,g);
     }
 
 }

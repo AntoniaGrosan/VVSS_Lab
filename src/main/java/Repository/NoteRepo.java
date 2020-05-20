@@ -123,6 +123,7 @@ public class NoteRepo extends AbstractRepo<Nota,Map.Entry<String,Integer>> {
             try {
                 writeToFile(el, fd);
                 writeToFile2(el);
+                return el;
             } catch (IOException ex) {
                 System.out.println(ex);
             }
